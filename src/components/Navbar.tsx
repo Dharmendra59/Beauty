@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({setShowCart}:any) => {
       return (
             <nav className="navbar">
                   <h1>Navbar</h1>
