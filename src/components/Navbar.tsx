@@ -25,13 +25,13 @@ const Navbar = ({setShowCart}:any) => {
                         <div className="flex gap-4 text-[26px]">
                               <div className="relative cursor-pointer" onClick={() => setShowCart(true)}>
                               <AiOutlineShoppingCart />
-                              <div className="absolute top-[-15px] right-[-10px] w-[25px] h-[25px] rounded-full text-white bg-red-600 text-[14px] flex justify-center items-center">
+                              <div className="absolute top-[-15px] right-[-10px] w-[23px] h-[23px] rounded-full text-white bg-red-600 text-[14px] flex justify-center items-center">
                                     {cartCount}
                                     
                               </div>
                               
                               </div>
-                              <div className="text-[22px]"><TbSearch /></div>
+                              <div className="search"><TbSearch className="text-[22px] cursor-pointer" /></div>
                         </div>
 
                   </div>
